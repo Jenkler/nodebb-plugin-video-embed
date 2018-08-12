@@ -1,0 +1,14 @@
+.video-embed {
+	height: auto;
+	overflow: hidden; 
+	padding-bottom: 56.25%;
+	position: relative;
+	width: 100%;
+}
+.video-embed iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}

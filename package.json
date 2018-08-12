@@ -1,0 +1,26 @@
+{
+  "author": {
+    "email": "info@jenkler.com",
+    "name": "Jenkler IT AB"
+  },
+  "description": "A plugin that embed movies from links",
+  "homepage": "https://github.com/Jenkler/nodebb-plugin-video-embed",
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "youtube"
+  ],
+  "main": "plugin.js",
+  "name": "nodebb-plugin-video-embed",
+  "nbbpm": {
+    "compatibility": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenkler/nodebb-plugin-video-embed.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.10.0"
+}
