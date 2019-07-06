@@ -19,6 +19,6 @@ exports.filterParsePost = function(data, callback) {
   callback(null, data);
 };
 exports.staticAppLoad = function(data, callback) {
-  console.log('Loading Jenkler Video embed plugin' + require('./package.json').version);
+  console.log('Loading Jenkler Video embed plugin ' + require('./package.json').version);
   callback();
 };
