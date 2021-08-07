@@ -4,17 +4,18 @@
   ],
   "description": "A plugin that embed movies from links",
   "hooks": [
-    { "hook": "filter:parse.post", "method": "filterParsePost", "priority": 9 },
+    { "hook": "filter:parse.post", "method": "filterParsePost" },
+    { "hook": "filter:sanitize.config", "method": "filterSanitizeConfig" },
     { "hook": "static:app.load", "method": "staticAppLoad" }
   ],
   "id": "nodebb-plugin-video-embed",
   "library": "plugin.js",
-  "name": "NodeBB Video embed",
+  "name": "NodeBB Video Embed",
   "nbbpm": {
-    "compatibility": "^1.12.2"
+    "compatibility": "^1.17.2"
   },
   "staticDirs": {
     "static": "static"
-    },
+  },
   "url": "https://github.com/Jenkler/nodebb-plugin-video-embed"
 }

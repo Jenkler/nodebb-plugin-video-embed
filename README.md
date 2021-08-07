@@ -1,11 +1,13 @@
-# NodeBB Video embed - A plugin that embed movies from links
+# NodeBB Video Embed - A plugin that embed movies from urls
 
-Replace video links with embed code
+Replace video urls with embed code
 
-## Supported video services
+## Supported video urls
 
+- Vimeo
 - Youtube
+- Youtube Playlist
 
 ## Installation
 
-    npm install nodebb-plugin-video-embed
+  npm install nodebb-plugin-video-embed
